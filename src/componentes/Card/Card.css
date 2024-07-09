@@ -1,0 +1,9 @@
+.card-component{
+    width: 80%;
+    height: auto;
+    border: 1px solid #ccc ;
+    border-radius: 30px;
+    margin: 3%;
+    background-color: blue;
+    padding: 2% 7%;
+}
