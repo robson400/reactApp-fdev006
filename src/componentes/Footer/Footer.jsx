@@ -4,7 +4,9 @@ function Footer() {
 
     return (
         <>
-            <h2>Isso é o Footer.</h2>
+            <div>
+                <h2>Isso é o Footer.</h2>
+            </div>
         </>
     )
 }

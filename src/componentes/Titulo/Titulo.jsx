@@ -1,10 +1,10 @@
 import './Style.css';
 
-function Titulo (props) {
+function Titulo ({title}) {
 
     return (
         <>
-            <h1>{props.content}</h1>
+            <h2>{title}</h2>
         </>
     )
 }

@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import './Style.css';
 
 function Menu() {
@@ -5,9 +6,9 @@ function Menu() {
     return (
         <>
             <ul className='menu'>
-                <li>Inicio</li>
-                <li>Sobre</li>
-                <li>Contato</li>
+                <li><Link to='/'>Inicio</Link></li>
+                <li><Link to='/sobre'>Sobre</Link></li>
+                <li><Link to='/contato'>Contato</Link></li>
             </ul>
         </>
     )
